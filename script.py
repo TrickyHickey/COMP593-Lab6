@@ -3,7 +3,7 @@ import re
 import requests
 from sys import argv
 
-def main(): 
+def main():
 
     user_info = argv[1]
     user_info = get_user_info(10)
